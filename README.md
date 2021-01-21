@@ -16,16 +16,12 @@ For authentication via auth-server:
 ```json
 {
     "username": "danielle",
-    "code": {put your otp code here}
+    "code": 1234
 }
 ```
 * You are logged in now!
 
 ### Another endpoints
-  [GET http://localhost:9090/login](http://localhost:9090/login) with the following headers:
-    - username: danielle
-    - password: 12345
-
 * You can add new user by sending request to POST http://localhost:8080/user/add with the following request body:
 ```json
 {
